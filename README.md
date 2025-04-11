@@ -24,3 +24,27 @@ The scripts are geared toward neuroimaging applications and data science workflo
 You can install the necessary packages using:
 ```R
 install.packages(c("magick", "ggplot2"))
+
+```
+
+## Usage
+
+1. Open the Neurohacking.Rproj file in RStudio.
+2. Review and run individual scripts (e.g., Basic_load_write_images.R) to see example workflows for image processing.
+3. Modify the scripts as needed to adapt the methods to your own neuroimaging data.
+
+## Repository Structure
+```plaintext
+R_Neurohacking/
+├── Data/
+│   └── (sample images and data files)
+├── Basic_load_write_images.R
+├── Basic_manipulation_images.R
+├── Basic_visualization_images.R
+└── Neurohacking.Rproj
+```
+
+## Licence
+This project is licensed under the MIT License.
+
+
